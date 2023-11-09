@@ -1,0 +1,6 @@
+export const SET_CARS = "SET_CARS";
+export const SET_FILTERED_DATA = "SET_FILTERED_DATA";
+export const SET_LOADING = "SET_LOADING";
+export const SET_DRIVER_TYPE = "SET_DRIVER_TYPE";
+export const SET_PASSENGER_COUNT = "SET_PASSENGER_COUNT";
+export const SET_SELECTED_DATE = "SET_SELECTED_DATE";

@@ -1,12 +1,15 @@
-import { Container } from "react-bootstrap";
-import LandingPage from "/LandingPage.png";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
-      <Container>
-        <img src={LandingPage} style={{ maxWidth: "1440px", width: "100%" }} />
-      </Container>
+      <Header />
+      <Hero />
+      <Outlet />
+      <Footer />
     </>
   );
 }
